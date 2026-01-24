@@ -1,0 +1,96 @@
+:root {
+  --primary-color: #626368;
+}
+
+body {
+  background-color: #DCDFE6;
+}
+
+h1 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+h2 {
+  color: var(--primary-color);
+  text-align: center;
+}
+
+ .bg-success-subtle{
+        background-color:lightblue !important ;
+        color: var(--primary-color);
+      }
+
+
+      .navbar-blue {
+        background-color:lightblue;
+      }
+
+      .navigation-links{
+        text-decoration: none;
+      }
+
+      .know{
+        font-style: italic;
+      }
+.footer{
+  color:var(--primary-color);
+  margin-top: 25px;
+  font-style: italic;
+  padding: 10px;
+}
+
+
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.contact {
+  text-decoration: none;
+  border: 1px solid #474646;
+  border-radius: 4px;
+  color: white;
+  background-color: #a0a19c;
+  padding: 20px;
+  margin: 10px;
+}
+
+.about {
+  border: 1px solid #474646;
+  border-radius: 4px;
+  color: white;
+  background-color: #a0a19c;
+  padding: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.contact:hover {
+  text-decoration: none;
+  border: 1px solid #474646;
+  border-radius: 4px;
+  color: var(--primary-color);
+  background-color: white;
+  padding: 20px;
+  margin: 10px;
+}
+
+.about:hover {
+  border: 1px solid #474646;
+  border-radius: 4px;
+  color: var(--primary-color);
+  background-color: white;
+  padding: 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+p {
+  text-align: center;
+  text-decoration: double;
+}

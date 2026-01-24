@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SeforaNoata</title>
+    <style>
+
+body{background:linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);}
+
+        h1{text-align: center;
+        color:#3c4245; 
+    font-size: 45px;}
+
+
+        h2{text-align: center;
+        padding: 20px;
+    color: #3c4245; 
+}
+	
+img{display: block;
+margin:0 auto}
+
+button{display: block;
+margin: 0 auto;
+color:#3c4245; 
+background-color:#D8D7D7; 
+font-size: 20px;
+border-radius: 5px;
+padding: 15px;
+}
+
+button:hover{display: block;
+margin: 0 auto;
+color: #D8D7D7;
+background-color:#3c4245;
+font-size: 20px; 
+padding: 15px;
+border-radius: 5px;
+transition: all 200ms ease-in-out;
+}
+
+    </style>
+  </head>
+  <body>
+    <a href="index.html">Back to homepage</a>
+    <h1>PERSONALIZED GLITTER PHOTOS</h1>
+    <h2>Sparkling moments, sparkling memories</h2>
+
+    <img
+      src="https://images.squarespace-cdn.com/content/v1/593ac3feebbd1a7b6c9873c7/1548755663510-4KYY9RCC8AQ1SIKDHBS1/DC-25.jpg?format=500w"
+      alt="glitter photo"
+      width="400"
+    />
+    <p>
+      We all love taking pictures because it gives us a chance to capture a
+      moment in time that we will probably  never experience again.The time goes, but
+      the moments lived remain there, in our soul and heart.Looking back in our
+      life album, a photo of you and your dear one, could bring back a glimse of
+      that precious memory what you lived.
+      <br/>
+      We do offer a range of different sizes and style for personalisez photos.
+      <br/>
+      Please see bellow our offer.
+      <ul>
+        <li>
+            Photo 20 cm x 40 cm canvas
+        </li>
+        <li>
+            Photo 20 cm x 40 cm framed
+        </li>
+        <li>
+            Photo 30cm x 50 cm canvas
+        </li>
+        <li>
+          Photo 30cm x 50 cm framed  
+        </li>
+      </ul>
+    </p>
+
+    <p>
+        Coded by Sefora Noata
+    </p>
+    <button>
+        Order now
+    </button>
+
+
+    <script>
+
+        function updateheading(newHeading) {
+        let heading = document.querySelector("h1");
+        heading.innerHTML = newHeading;
+      }
+
+function order() {
+        let firstName = prompt("What is your name? ");
+        let email= prompt("What is your email address? ")
+        let style = prompt("Would you like to place an order for canvas glitter photo?");
+
+        if ( style = "yes") {
+          updateheading ("Thank you " + firstName + " ! We will place your glitter canvas photo order soon!");
+        } else {
+          updateheading(
+            "Thank you " + firstName + " we will place your framed photos order soon!"
+          );
+        } 
+      } 
+
+      let orderButton = document.querySelector("button");
+      orderButton.addEventListener("click", order);
+
+
+
+
+    </script>
+  </body>
+</html>

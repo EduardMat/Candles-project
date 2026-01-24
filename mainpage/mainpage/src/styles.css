@@ -1,0 +1,36 @@
+:root{
+    --primary-color:#626368;
+
+}
+
+body{
+    background-color: #abd8da ;
+}
+
+h1{
+    color:var(--primary-color);
+    text-align: center;
+}
+
+.wrapping{
+    border:2px solid #9C9E9B  ;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 2px;
+}
+
+
+
+.parag{
+    display:flex;
+    justify-content: center;
+    flex:1;
+    padding: 20px;
+}
+
+
+
+.contact{
+    color: var(--primary-color);
+    font-size: 20px;
+}
