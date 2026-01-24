@@ -3,16 +3,33 @@
 }
 
 body {
-  background-color: #DCDFE6;
+  background-color: beige;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../images/candle-1.jpg");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: contrast(90%);
+  filter: brightness(130%);
+  padding: 250px 0px;
+}
+
+.title-wrapper {
+  position: absolute;
+  top: 50px;
+  left: 20px;
 }
 
 h1 {
-  color: var(--primary-color);
-  text-align: center;
+  color: white;
+
 }
 
 h2 {
-  color: var(--primary-color);
+  color: white;
   text-align: center;
 }
 
@@ -46,7 +63,8 @@ h2 {
   display: flex;
   justify-content: center;
   flex: 1;
-  padding: 20px;
+  margin: 50px;
+  padding: 10px;
   text-decoration: none;
 }
 
