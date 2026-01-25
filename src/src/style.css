@@ -34,13 +34,19 @@ h2 {
 }
 
  .bg-success-subtle{
-        background-color:lightblue !important ;
+        background-color:rgb(181, 184, 185) !important ;
         color: var(--primary-color);
+      }
+
+      .border.bg-info.rounded.p-1.text-decoration-none.text-white{
+         background-color:rgb(181, 184, 185) !important ;
+        color: var(--primary-color);
+
       }
 
 
       .navbar-blue {
-        background-color:lightblue;
+        background-color:rgb(181, 184, 185);
       }
 
       .navigation-links{
@@ -137,3 +143,32 @@ img{
   grid-column-gap: 20px;
  
 }
+
+footer ul {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+footer ul li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(163, 162, 162);
+  text-decoration: none;
+  color: rgb(45, 45, 45);
+  
+}
+ li a {
+  color:rgb(73, 72, 72);
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 200ms all ease-in-out;
+ }
+
+ 
+ li a:hover{
+  color:white;
+    text-decoration: none;
+    font-weight: bolder;
+ }
