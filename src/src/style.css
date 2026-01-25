@@ -33,6 +33,20 @@ h2 {
   text-align: center;
 }
 
+.htitle{
+  color:white;
+  font-family: Great Vibes, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: right;
+  padding:20px;
+
+
+}
+
+.htitle h1{
+  font-size: 100px;
+}
+
  .bg-success-subtle{
         background-color:rgb(181, 184, 185) !important ;
         color: var(--primary-color);
@@ -172,3 +186,18 @@ footer ul li {
     text-decoration: none;
     font-weight: bolder;
  }
+
+ .medialinks{
+  color:rgb(73, 72, 72);
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 200ms all ease-in-out;
+ }
+
+ 
+ .medialinks:hover{
+  color:white;
+    text-decoration: none;
+    font-weight: bolder;
+ }
+
